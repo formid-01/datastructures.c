@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void insertionSort(int D[], int n){ //n sizezına sahip bir array tanımladık.
-    int i, j, key;                  //Burada atama yapabilmek için 3 tane integera ihtiyacımız var.
+void insertionSort(int D[], int n){ 
+    int i, j, key;                  
     for(i = 1; i < n; i++){           
         key = D[i];
 
